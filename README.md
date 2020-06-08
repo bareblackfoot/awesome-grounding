@@ -15,6 +15,7 @@ To maintaing the quality of the repo, I have gone through all the listed papers 
 - [Paper Roadmap (Chronological Order):](#paper-roadmap-chronological-order)
 	- [Visual Grounding / Referring Expressions (Images):](#visual-grounding--referring-expressions-images)
 		- [Weakly Supervised Visual Grounding](#weakly-supervised-visual-grounding)
+		- [Zero-shot Visual Grounding](#zero-shot-visual-grounding)
     	- [Natural Language Object Retrieval (Images)](#natural-language-object-retrieval-images)
   	- [Video Grounding using Natural Language:](#video-grounding-using-natural-language)
 	- [Grounded Description (Image) (WIP)](#grounded-description-image-wip)
@@ -203,12 +204,13 @@ ConvNet (SCRC)* [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_
 
 1. Datta, Samyak, et al. **Align2ground: Weakly supervised phrase grounding guided by image-caption alignment.** arXiv preprint arXiv:1903.11649 (2019). (ICCV 2019) [[Paper]](https://arxiv.org/pdf/1903.11649.pdf)
 
-1. Sadhu, Arka, Kan Chen, and Ram Nevatia. **Zero-Shot Grounding of Objects from Natural Language Queries.** arXiv preprint arXiv:1908.07129 (2019).(ICCV 2019) [[Paper]](https://arxiv.org/abs/1908.07129) [[Code]](https://github.com/TheShadow29/zsgnet-pytorch)
-
 1. Wang, Josiah, and Lucia Specia. **Phrase Localization Without Paired Training Examples.** arXiv preprint arXiv:1908.07553 (2019). (ICCV 2019) [[Paper]](https://arxiv.org/abs/1908.07553) [[Code]](https://github.com/josiahwang/phraseloceval) 
 
 1. Liu, Xuejing, et al. **Adaptive Reconstruction Network for Weakly Supervised Referring Expression Grounding.** arXiv preprint arXiv:1908.10568 (2019). (ICCV 2019) [[Paper]](https://arxiv.org/pdf/1908.10568.pdf) [[Code]](https://github.com/GingL/ARN)
 
+### Zero-shot Visual Grounding
+
+1. Sadhu, Arka, Kan Chen, and Ram Nevatia. **Zero-Shot Grounding of Objects from Natural Language Queries.** arXiv preprint arXiv:1908.07129 (2019).(ICCV 2019) [[Paper]](https://arxiv.org/abs/1908.07129) [[Code]](https://github.com/TheShadow29/zsgnet-pytorch)
 
 ### Natural Language Object Retrieval (Images)
 
