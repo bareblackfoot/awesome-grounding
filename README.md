@@ -10,15 +10,16 @@ To maintaing the quality of the repo, I have gone through all the listed papers 
 - [Demos](#demos)
 - [Other Compilations](#other-compilations)
 - [Datasets](#datasets)
-    - [Image Grounding Datasets](#image-grounding-datasets)
-    - [Video Datasets](#video-datasets)
+	- [Image Grounding Datasets](#image-grounding-datasets)
+	- [Video Grounding Datasets](#video-grounding-datasets)
 - [Paper Roadmap (Chronological Order):](#paper-roadmap-chronological-order)
 	- [Visual Grounding / Referring Expressions (Images):](#visual-grounding--referring-expressions-images)
-    - [Natural Language Object Retrieval (Images)](#natural-language-object-retrieval-images)
-    - [Video Grounding (Activity Localization) using Natural Language:](#video-grounding-activity-localization-using-natural-language)
-    - [Grounded Description (Image) (WIP)](#grounded-description-image-wip)
-    - [Grounded Description (Video) (WIP)](#grounded-description-video-wip)
-    - [Visual Grounding Pretraining](#visual-grounding-pretraining)
+		- [Weakly Supervised Visual Grounding](#weakly-supervised-visual-grounding)
+    	- [Natural Language Object Retrieval (Images)](#natural-language-object-retrieval-images)
+  	- [Video Grounding using Natural Language:](#video-grounding-using-natural-language)
+	- [Grounded Description (Image) (WIP)](#grounded-description-image-wip)
+	- [Grounded Description (Video) (WIP)](#grounded-description-video-wip)
+	- [Visual Grounding Pretraining](#visual-grounding-pretraining)
 
 ## Contributing
  Feel free to contact me via email (ark.sadhu2904@gmail.com) or open an issue or submit a pull request. To add a new paper via pull request:
@@ -57,7 +58,7 @@ Shoutout to some other awesome stuff on vision and language grounding:
 1. **Clevr-ref+**: Liu, Runtao, et al. **Clevr-ref+: Diagnosing visual reasoning with referring expressions.** Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2019. [[Paper]](https://arxiv.org/pdf/1901.00850.pdf) [[Code]](https://github.com/ccvl/clevr-refplus-dataset-gen) [[Website]](https://cs.jhu.edu/~cxliu/2019/clevr-ref+)
 
 
-### Video Datasets
+### Video Grounding Datasets
 
 1. **TaCoS**: Regneri, Michaela, et al. **Grounding action descriptions in videos.** Transactions of the Association of Computational Linguistics 1 (2013): 25-36. [[Paper]](http://aclweb.org/anthology/Q13-1003) [[Website]](http://www.coli.uni-saarland.de/projects/smile/page.php?id=tacos)
 
@@ -88,7 +89,7 @@ Shoutout to some other awesome stuff on vision and language grounding:
 
 1. **Habitat AI**: Savva, Manolis, et al. **Habitat: A platform for embodied ai research.** Proceedings of the IEEE International Conference on Computer Vision. 2019. (ICCV 2019) [[Paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Savva_Habitat_A_Platform_for_Embodied_AI_Research_ICCV_2019_paper.pdf) [[Website]](https://aihabitat.org/)
 
-## Paper Roadmap (Chronological Order):
+1. **ALFRED**: Mohit Shridhar, Jesse Thomason, Daniel Gordon, Yonatan Bisk, Winson Han, Roozbeh Mottaghi, Luke Zettlemoyer, Dieter Fox, **ALFRED: A Benchmark for Interpreting Grounded Instructions for Everyday Tasks** [[Paper]](https://arxiv.org/pdf/1912.01734.pdf) [[Code]](https://github.com/askforalfred/alfred) [[Project Page]](https://askforalfred.com/)
 
 ### Visual Grounding / Referring Expressions (Images):
 1. Karpathy, Andrej, Armand Joulin, and Li F. Fei-Fei. **Deep fragment embeddings for bidirectional image sentence mapping.** Advances in neural information processing systems. 2014. [[Paper]](http://papers.nips.cc/paper/5281-deep-fragment-embeddings-for-bidirectional-image-sentence-mapping.pdf)
@@ -128,8 +129,6 @@ ConvNet (SCRC)* [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_
 
 1. Liu, Jingyu, Liang Wang, and Ming-Hsuan Yang. **Referring expression generation and comprehension via attributes.** Proceedings of CVPR. 2017. [[Paper]](http://faculty.ucmerced.edu/mhyang/papers/iccv2017_referring_expression.pdf) 
 
-1. Xiao, Fanyi, Leonid Sigal, and Yong Jae Lee. **Weakly-supervised visual grounding of phrases with linguistic structures.** arXiv preprint arXiv:1705.01371 (2017). [[Paper]](https://arxiv.org/pdf/1705.01371.pdf) 
-
 1. Plummer, Bryan A., et al. **Phrase localization and visual relationship detection with comprehensive image-language cues.** Proc. ICCV. 2017. [[Paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Plummer_Phrase_Localization_and_ICCV_2017_paper.pdf) [[Code]](https://github.com/BryanPlummer/pl-clc)
 
 1. Chen, Kan, Rama Kovvuri, and Ram Nevatia. **Query-guided regression network with context policy for phrase grounding.** Proceedings of the IEEE International Conference on Computer Vision (ICCV). 2017. *Method name: QRC* [[Paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Chen_Query-Guided_Regression_Network_ICCV_2017_paper.pdf) [[Code]](https://github.com/kanchen-usc/QRC-Net)
@@ -149,8 +148,6 @@ ConvNet (SCRC)* [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_
 1. Li, Ruiyu, et al. **Referring image segmentation via recurrent refinement networks.** Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2018.[[Paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Li_Referring_Image_Segmentation_CVPR_2018_paper.pdf) [[Code]](https://github.com/liruiyu/referseg_rrn)
 
 1. Zhang, Yundong, Juan Carlos Niebles, and Alvaro Soto. **Interpretable Visual Question Answering by Visual Grounding from Attention Supervision Mining.** arXiv preprint arXiv:1808.00265 (2018). [[Paper]](https://arxiv.org/pdf/1808.00265.pdf) 
-
-1. Chen, Kan, Jiyang Gao, and Ram Nevatia. **Knowledge aided consistency for weakly supervised phrase grounding.** arXiv preprint arXiv:1803.03879 (2018). [[Paper]](https://arxiv.org/abs/1803.03879) [[Code]](https://github.com/kanchen-usc/KAC-Net)
 
 1. Zhang, Hanwang, Yulei Niu, and Shih-Fu Chang. **Grounding referring expressions in images by variational context.** Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2018. [[Paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_Grounding_Referring_Expressions_CVPR_2018_paper.pdf) [[Code]](https://github.com/yuleiniu/vc/)
 
@@ -180,8 +177,6 @@ ConvNet (SCRC)* [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_
 
 1. Dogan, Pelin, Leonid Sigal, and Markus Gross. **Neural Sequential Phrase Grounding (SeqGROUND).** Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. (CVPR) 2019. [[Paper]](https://arxiv.org/pdf/1903.07669.pdf)
 
-1. Datta, Samyak, et al. **Align2ground: Weakly supervised phrase grounding guided by image-caption alignment.** arXiv preprint arXiv:1903.11649 (2019). (ICCV 2019) [[Paper]](https://arxiv.org/pdf/1903.11649.pdf)
-
 1. Fang, Zhiyuan, et al. **Modularized textual grounding for counterfactual resilience.** Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. (CVPR) 2019. [[Paper]](https://arxiv.org/pdf/1904.03589.pdf)
 
 1. Ye, Linwei, et al. **Cross-Modal Self-Attention Network for Referring Image Segmentation.** Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. (CVPR) 2019. [[Paper]](https://arxiv.org/pdf/1904.04745.pdf)
@@ -190,20 +185,31 @@ ConvNet (SCRC)* [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_
 
 1. Yang, Sibei, Guanbin Li, and Yizhou Yu. **Dynamic Graph Attention for Referring Expression Comprehension.** arXiv preprint arXiv:1909.08164 (2019). (ICCV 2019) [[Paper]](https://arxiv.org/pdf/1909.08164.pdf) [[Code]](https://github.com/sibeiyang/sgmn/tree/master/lib/dga_models)
 
-1. Wang, Josiah, and Lucia Specia. "Phrase Localization Without Paired Training Examples." arXiv preprint arXiv:1908.07553 (2019). (ICCV 2019) [[Paper]](https://arxiv.org/abs/1908.07553) [[Code]](https://github.com/josiahwang/phraseloceval) 
-
 1. Yang, Zhengyuan, et al. **A Fast and Accurate One-Stage Approach to Visual Grounding.** arXiv preprint arXiv:1908.06354 (2019). (ICCV 2019) [[Paper]](https://arxiv.org/pdf/1908.06354.pdf) [[Code]](https://github.com/zyang-ur/onestage_grounding)
-
-1. Sadhu, Arka, Kan Chen, and Ram Nevatia. **Zero-Shot Grounding of Objects from Natural Language Queries.** arXiv preprint arXiv:1908.07129 (2019).(ICCV 2019) [[Paper]](https://arxiv.org/abs/1908.07129) [[Code]](https://github.com/TheShadow29/zsgnet-pytorch)
-*Disclaimer: I am an author of the paper*
-
-1. Liu, Xuejing, et al. **Adaptive Reconstruction Network for Weakly Supervised Referring Expression Grounding.** arXiv preprint arXiv:1908.10568 (2019). (ICCV 2019) [[Paper]](https://arxiv.org/pdf/1908.10568.pdf) [[Code]](https://github.com/GingL/ARN)
 
 1. Chen, Yi-Wen, et al. **Referring Expression Object Segmentation with Caption-Aware Consistency.** arXiv preprint arXiv:1910.04748 (2019). (BMVC 2019) [[Paper]](https://arxiv.org/abs/1910.04748) [[Code]](https://github.com/wenz116/lang2seg)
 
 1. Liu, Jiacheng, and Julia Hockenmaier. **Phrase Grounding by Soft-Label Chain Conditional Random Field.** arXiv preprint arXiv:1909.00301 (2019) (EMNLP 2019). [[Paper]](https://arxiv.org/pdf/1909.00301.pdf) [[Code]](https://github.com/liujch1998/SoftLabelCCRF)
 
 1. Liu, Yongfei, Wan Bo, Zhu Xiaodan and He Xuming. **Learning Cross-modal Context Graph for Visual Grounding.** arXiv preprint arXiv: (2019) (AAAI-2020). [[Paper]](https://arxiv.org/pdf/1911.09042.pdf) [[Code]](https://github.com/youngfly11/LCMCG-PyTorch)
+
+1. Yuanen Zhou, Meng Wang, Daqing Liu, Zhenzhen Hu, Hanwang Zhang, **More Grounded Image Captioning by Distilling Image-Text Matching Model** Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. (CVPR) 2020. [[Paper]](https://arxiv.org/pdf/2004.00390.pdf) [[Code]](https://github.com/YuanEZhou/Grounded-Image-Captioning)
+
+### Weakly Supervised Visual Grounding
+
+1. Xiao, Fanyi, Leonid Sigal, and Yong Jae Lee. **Weakly-supervised visual grounding of phrases with linguistic structures.** arXiv preprint arXiv:1705.01371 (2017). [[Paper]](https://arxiv.org/pdf/1705.01371.pdf) 
+
+1. Chen, Kan, Jiyang Gao, and Ram Nevatia. **Knowledge aided consistency for weakly supervised phrase grounding.** arXiv preprint arXiv:1803.03879 (2018). [[Paper]](https://arxiv.org/abs/1803.03879) [[Code]](https://github.com/kanchen-usc/KAC-Net)
+
+1. Datta, Samyak, et al. **Align2ground: Weakly supervised phrase grounding guided by image-caption alignment.** arXiv preprint arXiv:1903.11649 (2019). (ICCV 2019) [[Paper]](https://arxiv.org/pdf/1903.11649.pdf)
+
+1. Sadhu, Arka, Kan Chen, and Ram Nevatia. **Zero-Shot Grounding of Objects from Natural Language Queries.** arXiv preprint arXiv:1908.07129 (2019).(ICCV 2019) [[Paper]](https://arxiv.org/abs/1908.07129) [[Code]](https://github.com/TheShadow29/zsgnet-pytorch)
+*Disclaimer: I am an author of the paper*
+
+1. Wang, Josiah, and Lucia Specia. **Phrase Localization Without Paired Training Examples.** arXiv preprint arXiv:1908.07553 (2019). (ICCV 2019) [[Paper]](https://arxiv.org/abs/1908.07553) [[Code]](https://github.com/josiahwang/phraseloceval) 
+
+1. Liu, Xuejing, et al. **Adaptive Reconstruction Network for Weakly Supervised Referring Expression Grounding.** arXiv preprint arXiv:1908.10568 (2019). (ICCV 2019) [[Paper]](https://arxiv.org/pdf/1908.10568.pdf) [[Code]](https://github.com/GingL/ARN)
+
 
 ### Natural Language Object Retrieval (Images)
 
@@ -230,7 +236,7 @@ ConvNet (SCRC)* [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_
 [[Paper]](https://arxiv.org/pdf/1904.02225.pdf)
 	- Critique of Referring Relationship paper
 
-### Video Grounding (Activity Localization) using Natural Language:
+### Video Grounding using Natural Language:
 1. Yu, Haonan, et al. **Grounded Language Learning from Video Described with Sentences** Proceedings of the Annual Meeting of the Association for Computational Linguistics. 2013. [[Paper]](https://www.aclweb.org/anthology/P13-1006)
 
 1. Xu, Ran, et al. **Jointly Modeling Deep Video and Compositional Text to Bridge Vision and Language in a Unified Framework.** Proceedings of the AAAI Conference on Artificial Intelligence. 2015. [[Paper]](http://web.eecs.umich.edu/~jjcorso/pubs/xu_corso_AAAI2015_v2t.pdf)
@@ -277,6 +283,15 @@ ConvNet (SCRC)* [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_
 
 1. Wang, Jingwen, Lin Ma, and Wenhao Jiang. **Temporally Grounding Language Queries in Videos by Contextual Boundary-aware Prediction.** arXiv preprint arXiv:1909.05010 (2019). (AAAI 2020) [[Paper]](https://arxiv.org/pdf/1909.05010.pdf) [[Code]](https://github.com/JaywongWang/CBP)
 
+1. Runhao Zeng, Haoming Xu, Wenbing Huang, Peihao Chen, Mingkui Tan, Chuang Gan, **Dense Regression Network for Video Grounding** Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. (CVPR) 2020 [[Paper]](https://arxiv.org/pdf/2004.03545.pdf)
+
+1. Mihir Prabhudesai, Hsiao-Yu Fish Tung, Syed Ashar Javed, et al. **Embodied Language Grounding With 3D Visual Feature Representations.** Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. (CVPR) 2020. [[Paper]](https://arxiv.org/pdf/1910.01210.pdf)
+
+1. Arka Sadhu, Kan Chen, Ram Nevatia, **Video Object Grounding Using Semantic Roles in Language Description** Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. (CVPR) 2020. [[Paper]](https://arxiv.org/pdf/2003.10606.pdf) [[Code]](https://github.com/TheShadow29/vognet-pytorch)
+
+1. Zhu Zhang, Zhou Zhao, Yang Zhao, Qi Wang, Huasheng Liu, Lianli Gao, **Where Does It Exist: Spatio-Temporal Video Grounding for Multi-Form Sentences** Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. (CVPR) 2020. [[Paper]](https://arxiv.org/pdf/2001.06891.pdf) [[Dataset]](https://github.com/Guaranteer/VidSTG-Dataset)
+
+1. Gunnar A. Sigurdsson, Jean-Baptiste Alayrac, Aida Nematzadeh, Lucas Smaira, Mateusz Malinowski, João Carreira, Phil Blunsom, Andrew Zisserman, **Visual Grounding in Video for Unsupervised Word Translation** Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. (CVPR) 2020. [[Paper]](https://arxiv.org/pdf/2003.05078.pdf) [[Code]](https://github.com/gsig/visual-grounding)
 
 ### Grounded Description (Image) (WIP)
 1. Hendricks, Lisa Anne, et al. **Generating visual explanations.** European Conference on Computer Vision. Springer, Cham, 2016. [[Paper]](https://arxiv.org/pdf/1603.08507.pdf) [[Code]](https://github.com/LisaAnne/ECCV2016/) [[Pytorch Code]](https://github.com/salaniz/pytorch-gve-lrcn)
