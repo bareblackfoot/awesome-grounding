@@ -204,7 +204,6 @@ ConvNet (SCRC)* [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_
 1. Datta, Samyak, et al. **Align2ground: Weakly supervised phrase grounding guided by image-caption alignment.** arXiv preprint arXiv:1903.11649 (2019). (ICCV 2019) [[Paper]](https://arxiv.org/pdf/1903.11649.pdf)
 
 1. Sadhu, Arka, Kan Chen, and Ram Nevatia. **Zero-Shot Grounding of Objects from Natural Language Queries.** arXiv preprint arXiv:1908.07129 (2019).(ICCV 2019) [[Paper]](https://arxiv.org/abs/1908.07129) [[Code]](https://github.com/TheShadow29/zsgnet-pytorch)
-*Disclaimer: I am an author of the paper*
 
 1. Wang, Josiah, and Lucia Specia. **Phrase Localization Without Paired Training Examples.** arXiv preprint arXiv:1908.07553 (2019). (ICCV 2019) [[Paper]](https://arxiv.org/abs/1908.07553) [[Code]](https://github.com/josiahwang/phraseloceval) 
 
