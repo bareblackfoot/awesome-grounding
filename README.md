@@ -10,7 +10,7 @@ To maintaing the quality of the repo, I have gone through all the listed papers 
 - [Demos](#demos)
 - [Other Compilations](#other-compilations)
 - [Datasets](#datasets)
-	- [Referring Grounding Datasets](#referring-grounding-datasets)
+	- [Object-Sentence Grounding Datasets](#object-sentence-grounding-datasets)
 	- [Object-Phrase Grounding Datasets](#object-phrase-grounding-datasets)
 	- [Guess What Datasets](#guess-what-datasets)
 	- [Video Grounding Datasets](#video-grounding-datasets)
@@ -44,7 +44,7 @@ Shoutout to some other awesome stuff on vision and language grounding:
 1. Temporal Grounding by WuJie (@WuJie1010): https://github.com/WuJie1010/Awesome-Temporally-Language-Grounding. Also, checkout their implementation of some of the popular papers: https://github.com/WuJie1010/Temporally-language-grounding
 
 ## Datasets
-### Referring Grounding Datasets
+### Object-Sentence Grounding Datasets
 
 1. **RefClef**: Kazemzadeh, Sahar, et al. **Referitgame: Referring to objects in photographs of natural scenes.** Proceedings of the 2014 conference on empirical methods in natural language processing (EMNLP). 2014. [[Paper]](http://www.aclweb.org/anthology/D14-1086) [[Website]](http://tamaraberg.com/referitgame/)
 
