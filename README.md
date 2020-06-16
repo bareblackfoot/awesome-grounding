@@ -56,8 +56,7 @@ Shoutout to some other awesome stuff on vision and language grounding:
 
 1. **Visual Genome**: Krishna, Ranjay, et al. **Visual genome: Connecting language and vision using crowdsourced dense image annotations.** International Journal of Computer Vision 123.1 (2017): 32-73. [[Paper]](https://arxiv.org/pdf/1602.07332.pdf) [[Website]](https://visualgenome.org/)
 
-1. **Ref-Reasoning**: Sibei Yang, Guanbin Li, Yizhou Yu
-, [[Paper]](https://sibeiyang.github.io/publication/sgmn/sgmn_cvpr.pdf) [[Website]](https://sibeiyang.github.io/dataset/ref-reasoning/)
+1. **Ref-Reasoning**: Sibei Yang, Guanbin Li, Yizhou Yu. **Graph-Structured Referring Expression Reasoning in The Wild.**, [[Paper]](https://sibeiyang.github.io/publication/sgmn/sgmn_cvpr.pdf) [[Website]](https://sibeiyang.github.io/dataset/ref-reasoning/)
 
 ### Object-phrase Grounding Datasets
 
@@ -203,9 +202,9 @@ ConvNet (SCRC)* [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_
 
 1. Liu, Yongfei, Wan Bo, Zhu Xiaodan and He Xuming. **Learning Cross-modal Context Graph for Visual Grounding.** arXiv preprint arXiv: (2019) (AAAI-2020). [[Paper]](https://arxiv.org/pdf/1911.09042.pdf) [[Code]](https://github.com/youngfly11/LCMCG-PyTorch)
 
-1. Yuanen Zhou, Meng Wang, Daqing Liu, Zhenzhen Hu, Hanwang Zhang, **More Grounded Image Captioning by Distilling Image-Text Matching Model** Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. (CVPR) 2020. [[Paper]](https://arxiv.org/pdf/2004.00390.pdf) [[Code]](https://github.com/YuanEZhou/Grounded-Image-Captioning)
+1. Yuanen Zhou, Meng Wang, Daqing Liu, Zhenzhen Hu, Hanwang Zhang, **More Grounded Image Captioning by Distilling Image-Text Matching Model.** Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. (CVPR) 2020. [[Paper]](https://arxiv.org/pdf/2004.00390.pdf) [[Code]](https://github.com/YuanEZhou/Grounded-Image-Captioning)
 
-1. Sibei Yang, Guanbin Li, Yizhou Yu, **Graph-Structured Referring Expressions Reasoning in The Wild** Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. (CVPR) 2020. [[Paper]](https://sibeiyang.github.io/publication/sgmn/sgmn_cvpr.pdf) [[Code]](https://github.com/sibeiyang/sgmn) 
+1. Sibei Yang, Guanbin Li, Yizhou Yu, **Graph-Structured Referring Expressions Reasoning in The Wild.** Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. (CVPR) 2020. [[Paper]](https://sibeiyang.github.io/publication/sgmn/sgmn_cvpr.pdf) [[Code]](https://github.com/sibeiyang/sgmn) 
 
 ### Weakly Supervised Visual Grounding
 
