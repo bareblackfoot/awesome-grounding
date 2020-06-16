@@ -56,7 +56,7 @@ Shoutout to some other awesome stuff on vision and language grounding:
 
 1. **Visual Genome**: Krishna, Ranjay, et al. **Visual genome: Connecting language and vision using crowdsourced dense image annotations.** International Journal of Computer Vision 123.1 (2017): 32-73. [[Paper]](https://arxiv.org/pdf/1602.07332.pdf) [[Website]](https://visualgenome.org/)
 
-1. **Ref-Reasoning**: Sibei Yang, Guanbin Li, Yizhou Yu. **Graph-Structured Referring Expression Reasoning in The Wild.**, [[Paper]](https://sibeiyang.github.io/publication/sgmn/sgmn_cvpr.pdf) [[Website]](https://sibeiyang.github.io/dataset/ref-reasoning/)
+1. **Ref-Reasoning**: Sibei Yang, Guanbin Li, Yizhou Yu. **Graph-Structured Referring Expression Reasoning in The Wild.** Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. (CVPR) 2020. [[Paper]](https://sibeiyang.github.io/publication/sgmn/sgmn_cvpr.pdf) [[Website]](https://sibeiyang.github.io/dataset/ref-reasoning/)
 
 ### Object-phrase Grounding Datasets
 
